@@ -1,5 +1,5 @@
-##Application name
+# Application name
 Task Timer
 
-##Progress
+# Progress
 At this juncture I have created a signup form for my app.
