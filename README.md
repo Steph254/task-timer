@@ -1,9 +1,5 @@
 # Application name
 Task Timer
 
-# Progress
-<<<<<<< HEAD
-At this juncture I have created a signup form for my app and also authenticated users by fetching JWTs from Harperdb
-=======
-At this juncture I have created a signup form for my app.
->>>>>>> 9ed8fb64103778962b9716bf61daf354c1c859f0
+## Description
+This application allows the user to log into the account he/she created while signing up.This application counts the duration each task takes. A user records the task he/she wants to be completed then clicks on the timer to record the duration taken. A record of the taks and their duration is represented in a table in the stats page.
