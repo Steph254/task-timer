@@ -13,7 +13,7 @@ const Navbar = () => {
   }
 
   return (
-     <header className="flex justify-between items-center bg-green-600 text-white py-4 px-4">
+     <header className="flex justify-between items-center bg-blue-500 text-white py-4 px-4">
       <h2 className="text-lg">
         <Link href="/">
           <a>{SITE_TITLE}</a>
@@ -27,7 +27,7 @@ const Navbar = () => {
               <NavLink href="/stats">Stats</NavLink>
               <button
                 onClick={handleLogout}
-                className="border py-1 px-3 ml-8 rounded hover:bg-green-700"
+                className="border py-1 px-3 ml-8 rounded hover:bg-blue-500"
                 type="button"
               >
                 Logout
