@@ -61,7 +61,7 @@ const LoginForm = () => {
         handleChange={e => setPassword(e.target.value)}
         value={password}
       />
-      <Button color="success" extraClasses="w-full mt-3 py-3 font-semibold">
+      <Button color="primary" extraClasses="w-full mt-3 py-3 font-semibold">
         Login
       </Button>
 

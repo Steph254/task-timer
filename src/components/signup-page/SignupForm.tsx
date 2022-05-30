@@ -89,7 +89,7 @@ const SignupForm = () => {
         value={password2}
       />
       <Button
-        color="success"
+        color="primary"
         type="submit"
         extraClasses="w-full mt-3 py-3 font-semibold"
       >
