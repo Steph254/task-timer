@@ -5,8 +5,8 @@ const nextConfig = {
     loader: "akamai",
     path: "",
   },
-  basePath: "/nextjs-pages",
-  assetPrefix: "/nextjs-pages"
+  basePath: "/task-timer",
+  assetPrefix: "/task-timer"
 }
 
 module.exports = nextConfig
