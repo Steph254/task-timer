@@ -1,6 +1,18 @@
 const SECONDS_PER_HOUR = 3600
 const SECONDS_PER_MINUTE = 60
 
+export const displayTimeString = (seconds: number) => {
+  const { formattedHours, formattedMins, formattedSecs } = formatTime(seconds)
+  return `${formattedHours}h ${formattedMins}m ${formattedSecs}s`
+}
+
+// timestamp => dd/mm/yyyy
+export const timestampToDayMonthYear = (timestamp: number) => {
+  const date = new Date(timestamp)
+  const formattedDate = date.toLocaleDateString()
+  return formattedDate
+}
+
 // HH:MM:SS
 export const formatTime = (seconds: number) => {
   const { hours, mins, secs } = calculateHoursMinsAndSecs(seconds)
